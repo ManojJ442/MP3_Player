@@ -1,0 +1,32 @@
+﻿Build started 03-02-2024 13:07:53.
+     1>Project "C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\RoundedDlg\RoundedDlg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RoundedDlg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RoundedDlg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RoundedDlgDlg.cpp
+         RoundedDlgDlg.cpp
+     1>c:\users\manoj\downloads\mymp3player-20240202t111553z-001\mymp3player\roundeddlg\roundeddlgdlg.cpp(291): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(250) : see declaration of 'strrev'
+     1>c:\users\manoj\downloads\mymp3player-20240202t111553z-001\mymp3player\roundeddlg\roundeddlgdlg.cpp(502): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\manoj\downloads\mymp3player-20240202t111553z-001\mymp3player\roundeddlg\roundeddlgdlg.cpp(528): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\manoj\downloads\mymp3player-20240202t111553z-001\mymp3player\roundeddlg\roundeddlgdlg.cpp(629): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\manoj\downloads\mymp3player-20240202t111553z-001\mymp3player\roundeddlg\roundeddlgdlg.cpp(231): warning C4715: 'CRoundedDlgDlg::OnCtlColor' : not all control paths return a value
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\Debug\RoundedDlg.exe" /INCREMENTAL:NO /NOLOGO VFW32.lib /MANIFEST /ManifestFile:"Debug\RoundedDlg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\Debug\RoundedDlg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\Debug\RoundedDlg.lib" /MACHINE:X86 Debug\RoundedDlg.res
+         Debug\OwnShape.obj
+         Debug\ProSliderCtrl.obj
+         Debug\RoundedDlg.obj
+         Debug\RoundedDlgDlg.obj
+         Debug\StaticTrans.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\Debug\RoundedDlg.exe'
+     1>Done Building Project "C:\Users\manoj\Downloads\MyMP3Player-20240202T111553Z-001\MyMP3Player\RoundedDlg\RoundedDlg.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.68
